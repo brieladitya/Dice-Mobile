@@ -138,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                       child: Icon(Icons.home),
                       backgroundColor: Colors.blue,
-                      mini: true,
+                      mini: false,
                     ),
                     SizedBox(width: 10),
                     FloatingActionButton(
@@ -153,16 +153,16 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                       child: Icon(Icons.settings),
                       backgroundColor: Colors.orange,
-                      mini: true,
+                      mini: false,
                     ),
                     SizedBox(width: 10),
                     FloatingActionButton(
                       onPressed: () {
                         print('Button 4 pressed');
                       },
-                      child: Icon(Icons.settings),
+                      child: Icon(Icons.attach_email),
                       backgroundColor: const Color.fromARGB(255, 228, 58, 200),
-                      mini: true,
+                      mini: false,
                     ),
                   ],
                 ),
